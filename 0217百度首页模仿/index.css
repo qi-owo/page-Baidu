@@ -1,0 +1,115 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#head{
+   float: right;
+   font-size: 13px;
+   margin: 22px 0em 0em 0em;
+}
+
+#head a {
+    font-weight: bolder;
+    color: black;
+    margin: 0em 16px 0em 0em;
+}
+#head a:link{
+    color: black;
+}
+#head a:hover{
+    color: blue;
+}
+
+#head #aa{
+    color: red;
+}
+
+#head p{
+    display: inline;
+    margin: 0em 12px 0em 0em;
+}
+
+#dd{
+    background-color: #0099ff;
+    padding:3px 5px;
+    color: snow;
+    margin-right: 5px;
+}
+
+section{
+    clear: both;
+    text-align: center; 
+}
+
+section img{
+    position:relative;
+    margin:auto;
+    padding-bottom: 20px;
+}
+
+input#bb{
+    border: 1px solid  #0099ff;
+    width: 525px; 
+    height: 30px;
+}
+
+input#cc{
+    color: white;
+    font-weight: bolder;
+    height: 33px;
+    width: 85px;
+    background-color: #0099ff;
+    border: #0099ff 1px solid;
+}
+
+
+#ee{
+    margin-top: 78px;
+    text-align: center;
+}
+#ee img{
+    position:relative;
+    margin-left:auto;
+    margin-right: auto;
+    width: 117px;
+    height: 117px;
+}
+#f{
+
+}
+#g{
+    color: slategray;
+    font-size: 14px;
+}
+#ee p{
+    line-height: 5px;
+}
+
+footer{
+    position: absolute; /*相对于父元素的定位*/
+    color: slategrey;
+    clear: both;
+    font-size: 12px;
+    width: 100%;
+    margin:0 auto ;
+    text-align:center;
+    bottom: 0; /*相对于父元素*/
+    margin-bottom: 40px;
+}
+
+footer p{
+    text-align:center;
+    display: inline;
+    padding: 0px 7px 0px 7px;
+    line-height: 25px;
+
+}
+
+footer a:link{
+    color: slategrey;
+}
+footer a:visited{
+    color: slategrey;
+}
